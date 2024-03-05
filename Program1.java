@@ -3,8 +3,8 @@ import java.util.Random;
 class Program1 extends ConsoleProgram {
 
   /**
-  * Description
-  * @author:
+  * generating random number between 0-4
+  * @author: P. Yip
   */
   
   public void run() {
@@ -17,6 +17,6 @@ class Program1 extends ConsoleProgram {
      int intRandom = myRandom.nextInt(5);
 
        System.out.println(intRandom);
-       
+
   }
 }
